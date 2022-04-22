@@ -1,4 +1,4 @@
-### Is file exist check
+### File exist check
 import os
 def fcheck():
     chck = False
