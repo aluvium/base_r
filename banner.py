@@ -1,4 +1,4 @@
-### Intro Banner
+### Init Banner
 def banner():
     print(
 '''
