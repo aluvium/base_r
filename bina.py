@@ -20,7 +20,7 @@ def bina():
              dd+=chr(b)
         print("[[ ** Printing decoded file ** ]]")
         print(f"Decimal -- > {bb}")
-        print(f'ASCII   -- > {dd}\n\n')    
+        print(f"ASCII   -- > {dd}\n\n")    
         f.close()
     return None
 
