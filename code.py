@@ -1,30 +1,32 @@
-### Init
+### Initialize
 import os
 from banner import banner
 from ac import ac
 from bina import bina
+from hexa import hexa
 def init(a):
     while a != "x":
          banner()
          a=input(' -- > ') 
          os.system('clear')
          if a == "1":
-            print("Here binary --> ASCII --> character function 1:")
-            bina()
+             print("Change binary --> decimal --> ascii characters: ")
+             bina()
          elif a == "2":
-            print("here octa funct 2:" )
-            #f(a)
+             print("Change octal --> decimal --> ascii characters: " )
+            # octa()
          elif a == "3":
-            print("here hex funct 3:" )
-            #f(a)
+             print("Change hexadecimal --> decimal --> ascii character: " )
+             hexa()
          elif a == "4":
-            print("Here ASCI --> characters function 4:")
-            ac()
+             print("Change decimal  --> ascii characters:")
+             ac()
          else:
-            print("Propably bad typo, please try again. Pick up the number from 1 - 4 or x for exit. ")
+             if a!='x':
+                 print("Propably bad input, please try again. Pick up the number from 1 - 4 or x for exit. ")
+             else:
+                 print("Goodbye.")
     return a
 if __name__ =='__main__':
     a=''
     init(a)
-
-
