@@ -26,7 +26,7 @@ def init(a):
                  print("Propably bad input, please try again. Pick up the number from 1 - 4 or x for exit. ")
              else:
                  print("Goodbye.")
-    return a
+    return 0
 if __name__ =='__main__':
     a=''
     init(a)
