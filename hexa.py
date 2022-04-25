@@ -1,4 +1,4 @@
-### Function hexadecimal -- > deximal -- > ASCI
+### Function hexadecimal -- > decimal -- > ASCI
 import os
 from check import fcheck
 def hexa():

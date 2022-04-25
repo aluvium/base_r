@@ -4,6 +4,7 @@ from banner import banner
 from ac import ac
 from bina import bina
 from hexa import hexa
+from octa import octa
 def init(a):
     while a != "x":
          banner()
@@ -14,7 +15,7 @@ def init(a):
              bina()
          elif a == "2":
              print("Change octal --> decimal --> ascii characters: " )
-            # octa()
+             octa()
          elif a == "3":
              print("Change hexadecimal --> decimal --> ascii character: " )
              hexa()
