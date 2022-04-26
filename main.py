@@ -1,11 +1,11 @@
-### Initialize
+### Initialize - Main Function - ##
 import os
 from banner import banner
 from ac import ac
 from bina import bina
 from hexa import hexa
 from octa import octa
-def init(a):
+def main(a):
     while a != "x":
          banner()
          a=input(' -- > ') 
@@ -30,4 +30,4 @@ def init(a):
     return 0
 if __name__ =='__main__':
     a=''
-    init(a)
+    main(a)
