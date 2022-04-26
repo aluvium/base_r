@@ -1,13 +1,14 @@
 ### Function ASCI -- > char
 import os
 from check import fcheck
-
+from output import output
 
 def bina():
     x=fcheck()
     with open( x ,'r') as f:
         e=f.read()
         os.system('clear')
+        output()
         print("[[ ** Printing recived file ** ]]")
         print(f'{e}\n')
         d=e.split()
