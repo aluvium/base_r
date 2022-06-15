@@ -12,6 +12,6 @@
   The program takes data from txt file.
   
 # How to use:
-  git clone https://github.com/aluvium/base_r.git
-  python ./main.py
+   - git clone https://github.com/aluvium/base_r.git
+   - python ./main.py
 ########################################################################################################
