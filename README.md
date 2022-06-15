@@ -1,6 +1,6 @@
 #######################################################################################################
 # base_r
-# Info
+* Info
   Converter beetween different number bases and to ascii. Mainly for CTFs purposes.
 
 # Features: 
