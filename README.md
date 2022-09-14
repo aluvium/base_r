@@ -1,4 +1,4 @@
-#####################################################################################
+
 # base_r
 ## Info
   Converter beetween different number bases and to ascii. Mainly for CTFs purposes.
@@ -14,4 +14,3 @@
    - git clone https://github.com/aluvium/base_r.git
    - python ./main.py
  
-#####################################################################################
